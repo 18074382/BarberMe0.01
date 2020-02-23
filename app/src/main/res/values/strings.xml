@@ -8,8 +8,6 @@
     <string name="returningUserText">Login.</string>
     <string name="requestName">What\'s your name!</string>
     <string name="title_activity_nonbarber_sign_up">Sign in</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>

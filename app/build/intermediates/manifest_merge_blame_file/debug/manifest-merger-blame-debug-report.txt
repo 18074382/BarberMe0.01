@@ -55,9 +55,9 @@
 33            android:value="@string/back4app_client_key" />
 33-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:26:13-56
 34
-35        <activity android:name="com.example.barberme001.SignUp_Login" />
-35-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:9-50
-35-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:19-47
+35        <activity android:name="com.example.barberme001.SignUp" />
+35-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:9-44
+35-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:19-41
 36        <activity android:name="com.example.barberme001.MainActivity" >
 36-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:29:9-35:20
 36-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:29:19-47

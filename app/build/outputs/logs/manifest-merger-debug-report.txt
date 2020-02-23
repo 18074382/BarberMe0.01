@@ -113,10 +113,10 @@ ADDED from /Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidMa
 		ADDED from /Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:26:13-56
 	android:name
 		ADDED from /Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:25:13-48
-activity#com.example.barberme001.SignUp_Login
-ADDED from /Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:9-50
+activity#com.example.barberme001.SignUp
+ADDED from /Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:9-44
 	android:name
-		ADDED from /Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:19-47
+		ADDED from /Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:19-41
 activity#com.example.barberme001.MainActivity
 ADDED from /Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:29:9-35:20
 	android:name

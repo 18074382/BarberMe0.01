@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity  {
         tvRegister.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent i = new Intent(MainActivity.this, SignUp_Login.class);
+                Intent i = new Intent(MainActivity.this, SignUp.class);
                 startActivity(i);
             }
         });
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity  {
     }
 
     public void getStarted(View view) {
-        Intent intent = new Intent(this, SignUp_Login.class);
+        Intent intent = new Intent(this, SignUp.class);
         startActivity(intent);
     }
 }

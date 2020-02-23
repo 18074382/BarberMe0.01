@@ -4943,7 +4943,7 @@ public final class R {
     public static final int abc_tooltip=0x7f0b001b;
     public static final int activity_dashboard=0x7f0b001c;
     public static final int activity_main=0x7f0b001d;
-    public static final int activity_sign_up__login=0x7f0b001e;
+    public static final int activity_signup=0x7f0b001e;
     public static final int design_bottom_navigation_item=0x7f0b001f;
     public static final int design_bottom_sheet_dialog=0x7f0b0020;
     public static final int design_layout_snackbar=0x7f0b0021;
@@ -5053,19 +5053,17 @@ public final class R {
     public static final int path_password_eye_mask_strike_through=0x7f0e0046;
     public static final int path_password_eye_mask_visible=0x7f0e0047;
     public static final int path_password_strike_through=0x7f0e0048;
-    public static final int prompt_email=0x7f0e0049;
-    public static final int prompt_password=0x7f0e004a;
-    public static final int register=0x7f0e004b;
-    public static final int requestName=0x7f0e004c;
-    public static final int returningUserText=0x7f0e004d;
-    public static final int search_menu_title=0x7f0e004e;
-    public static final int status_bar_notification_info_overflow=0x7f0e004f;
-    public static final int title_activity_dashboard=0x7f0e0050;
-    public static final int title_activity_nonbarber_sign_up=0x7f0e0051;
-    public static final int userOrPromoter=0x7f0e0052;
-    public static final int username=0x7f0e0053;
-    public static final int welcome=0x7f0e0054;
-    public static final int welcome_message=0x7f0e0055;
+    public static final int register=0x7f0e0049;
+    public static final int requestName=0x7f0e004a;
+    public static final int returningUserText=0x7f0e004b;
+    public static final int search_menu_title=0x7f0e004c;
+    public static final int status_bar_notification_info_overflow=0x7f0e004d;
+    public static final int title_activity_dashboard=0x7f0e004e;
+    public static final int title_activity_nonbarber_sign_up=0x7f0e004f;
+    public static final int userOrPromoter=0x7f0e0050;
+    public static final int username=0x7f0e0051;
+    public static final int welcome=0x7f0e0052;
+    public static final int welcome_message=0x7f0e0053;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;

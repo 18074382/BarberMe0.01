@@ -1292,7 +1292,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_dashboard
 layout activity_main
-layout activity_sign_up__login
+layout activity_signup
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1396,8 +1396,6 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string prompt_email
-string prompt_password
 string register
 string requestName
 string returningUserText

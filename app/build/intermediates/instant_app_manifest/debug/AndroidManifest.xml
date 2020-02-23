@@ -33,7 +33,7 @@
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/back4app_client_key" />
 
-        <activity android:name="com.example.barberme001.SignUp_Login" />
+        <activity android:name="com.example.barberme001.SignUp" />
         <activity android:name="com.example.barberme001.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
