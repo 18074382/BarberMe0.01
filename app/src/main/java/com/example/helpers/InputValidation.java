@@ -6,6 +6,7 @@ import android.util.Patterns;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
@@ -21,42 +22,35 @@ public class InputValidation {
 
 
     //check if input is filled
-    public boolean isInputFilled(TextInputEditText text, TextInputLayout layout, String message) {
+    public boolean isInputFilled(EditText text, String message) {
         String value = text.getText().toString().trim();
         if (value.isEmpty()) {
             text.setError(message);
             hideKeyboardFrom(text);
             return false;
-        } else {
-            layout.setErrorEnabled(false);
         }
         return true;
     }
 
     //check for valid email
-    public boolean isEmailValid(TextInputEditText text, TextInputLayout layout, String message) {
+    public boolean isEmailValid(EditText text, String message) {
         String value = text.getText().toString().trim();
         if (value.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(value).matches()) {
             text.setError(message);
             hideKeyboardFrom(text);
             return false;
-        } else {
-            layout.setErrorEnabled(false);
         }
         return true;
     }
 
     //do two text fields match
-    public boolean doTextMatch(TextInputEditText text1, TextInputEditText text2, TextInputLayout layout, String message) {
+    public boolean doTextMatch(EditText text1, EditText text2, String message) {
         String value1 = text1.getText().toString().trim();
         String value2 = text2.getText().toString().trim();
 
         if(!value1.contentEquals(value2)) {
-            layout.setError(message);
             hideKeyboardFrom(text2);
             return false;
-        } else {
-            layout.setErrorEnabled(false);
         }
         return true;
     }
