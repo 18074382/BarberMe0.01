@@ -20,12 +20,10 @@ import okhttp3.Response;
 
 
 
-public class SignUp extends AppCompatActivity {
+public class SignUp extends AppCompatActivity implements View.OnClickListener {
 
     EditText etName, etEmail, etPassword;
     Button button_register;
-
-    final String url_Register = "https://barberme.000webhostapp.com/register_user.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,17 +35,19 @@ public class SignUp extends AppCompatActivity {
         etPassword = (EditText) findViewById(R.id.editText_password);
         button_register = (Button) findViewById(R.id.button_register);
 
-        button_register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String Name = etName.getText().toString();
-                String Email = etEmail.getText().toString();
-                String Password = etPassword.getText().toString();
-            }
-        });
+
+        //create the listener for the register button
+        button_register.setOnClickListener(this);
+    }
+    @Override
+    public void onClick(View v) {
+        if (v.getId() == R.id.button_register) {
+            //runs when register button is clicked
+
+
+        }
 
     }
-
 
 
 }

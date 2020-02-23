@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity  {
     TextView tvRegister;
     Button btnLogin;
 
-    final String url_Login = "https://barberme.000webhostapp.com/login_user.php";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,51 +53,15 @@ public class MainActivity extends AppCompatActivity  {
                 String Email = etEmail.getText().toString();
                 String Password = etPassword.getText().toString();
 
-                new loginUser().execute(Email, Password);
+
             }
         });
 
-    }
-    public class loginUser extends AsyncTask<String ,Void, String>{
-
-        @Override
-        protected String doInBackground(String... strings) {
-            String Email = strings[0];
-            String Password = strings[1];
-
-            OkHttpClient okHttpClient = new OkHttpClient();
-            RequestBody formBody = new FormBody.Builder()
-                    .add("user_id", Email)
-                    .add("user_password", Password)
-                    .build();
-
-            Request request = new Request.Builder()
-                    .url(url_Login)
-                    .post(formBody)
-                    .build();
-            Response response = null;
-            try{
-                response = okHttpClient.newCall(request).execute();
-                if(response.isSuccessful()){
-                    String result = response.body().string();
-                    if(result.equalsIgnoreCase("login")){
-                        Intent i = new Intent(MainActivity.this, DashboardActivity.class);
-                        startActivity(i);
-                        finish();
-                    }else{
-                        Toast.makeText(MainActivity.this,
-                                "Email or Password mismatches!", Toast.LENGTH_SHORT).show();
-                    }
-                }
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-            return null;
-        }
     }
 
     public void getStarted(View view) {
         Intent intent = new Intent(this, SignUp.class);
         startActivity(intent);
     }
+
 }
