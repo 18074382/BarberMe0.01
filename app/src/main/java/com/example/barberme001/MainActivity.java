@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      }
 
         if (databaseHelper.checkUser(email, password)) {
+            //successful login
             Intent intent = new Intent(activity, LoggedIn.class);
             startActivity(intent);
         } else {
