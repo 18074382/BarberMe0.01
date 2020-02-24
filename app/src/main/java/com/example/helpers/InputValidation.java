@@ -22,41 +22,34 @@ public class InputValidation {
 
 
     //check if input is filled
-    public boolean isInputFilled(EditText text, String message) {
-        String value = text.getText().toString().trim();
+    public boolean isInputFilled(String text) {
+        String value = text.trim();
         if (value.isEmpty()) {
-            text.setError(message);
-            hideKeyboardFrom(text);
             return false;
         }
         return true;
     }
 
     //check for valid email
-    public boolean isEmailValid(EditText text, String message) {
-        String value = text.getText().toString().trim();
+    public boolean isEmailValid(String text) {
+        String value = text.trim();
         if (value.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(value).matches()) {
-            text.setError(message);
-            hideKeyboardFrom(text);
+
             return false;
         }
         return true;
     }
 
     //do two text fields match
-    public boolean doTextMatch(EditText text1, EditText text2, String message) {
-        String value1 = text1.getText().toString().trim();
-        String value2 = text2.getText().toString().trim();
+    public boolean doTextMatch(String text1, String text2) {
+        String value1 = text1.trim();
+        String value2 = text2.trim();
 
         if(!value1.contentEquals(value2)) {
-            hideKeyboardFrom(text2);
             return false;
         }
         return true;
     }
 
-    private void hideKeyboardFrom(View view) {
-        InputMethodManager imm  = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);
-        imm.hideSoftInputFromWindow(view.getWindowToken(), WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
-    }
+
 }

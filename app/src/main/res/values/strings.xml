@@ -23,6 +23,8 @@
     <string name="login">Login</string>
     <string name="mainpage_logo">mainpage logo</string>
 
+    <string name="success">Successful login!</string>
+
     <string name="username">Username</string>
     <string name="background">background</string>
     <string name="name">Name</string>

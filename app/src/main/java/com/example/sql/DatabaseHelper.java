@@ -1,5 +1,6 @@
 package com.example.sql;
 
+import com.example.barberme001.MainActivity;
 import com.example.model.User;
 import android.content.ContentValues;
 import android.content.Context;
@@ -157,6 +158,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     //check user with password
     public boolean checkUser(String email, String password) {
+
         String[] columns = {
                 COLUMN_USER_ID
         };

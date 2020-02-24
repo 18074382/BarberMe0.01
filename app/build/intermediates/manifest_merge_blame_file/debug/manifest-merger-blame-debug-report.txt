@@ -32,9 +32,9 @@
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
 22-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:14:9-40
-23        <activity android:name="com.example.barberme001.DashboardActivity" />
-23-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:16:9-64
-23-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:16:19-52
+23        <activity android:name="com.example.barberme001.LoggedIn" />
+23-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:16:9-55
+23-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:16:19-43
 24
 25        <meta-data
 25-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:18:9-20:59

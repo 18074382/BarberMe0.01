@@ -1215,6 +1215,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView_email
 id textView_name
 id textView_password
@@ -1291,6 +1292,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_dashboard
+layout activity_logged_in
 layout activity_main
 layout activity_signup
 layout design_bottom_navigation_item
@@ -1401,6 +1403,7 @@ string requestName
 string returningUserText
 string search_menu_title
 string status_bar_notification_info_overflow
+string success
 string title_activity_dashboard
 string title_activity_nonbarber_sign_up
 string userOrPromoter
