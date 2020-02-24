@@ -1,4 +1,4 @@
-#Mon Feb 24 16:00:10 GMT 2020
+#Mon Feb 24 16:05:38 GMT 2020
 base.0=C\:\\Users\\wasiq\\AndroidStudioProjects\\BarberMe002\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
