@@ -252,6 +252,10 @@
         "source": "/Users/aden/.gradle/caches/transforms-2/files-2.1/906744c4ddcbc384c5a8d2d69414f8fa/appcompat-1.0.2/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/layout_activity_signup.xml.flat",
+        "source": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/res/layout/activity_signup.xml"
+    },
+    {
         "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/Users/aden/.gradle/caches/transforms-2/files-2.1/c0a39027978b83a483a047f5c31d0c4e/core-1.0.1/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
@@ -722,6 +726,10 @@
     {
         "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
         "source": "/Users/aden/.gradle/caches/transforms-2/files-2.1/906744c4ddcbc384c5a8d2d69414f8fa/appcompat-1.0.2/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/layout_activity_logged_in.xml.flat",
+        "source": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/res/layout/activity_logged_in.xml"
     },
     {
         "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -1652,10 +1660,6 @@
         "source": "/Users/aden/.gradle/caches/transforms-2/files-2.1/906744c4ddcbc384c5a8d2d69414f8fa/appcompat-1.0.2/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/layout_activity_sign_up__login.xml.flat",
-        "source": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/res/layout/activity_sign_up__login.xml"
-    },
-    {
         "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/Users/aden/.gradle/caches/transforms-2/files-2.1/906744c4ddcbc384c5a8d2d69414f8fa/appcompat-1.0.2/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
     },
@@ -1894,10 +1898,6 @@
     {
         "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/aden/.gradle/caches/transforms-2/files-2.1/906744c4ddcbc384c5a8d2d69414f8fa/appcompat-1.0.2/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/layout-v26_activity_main.xml.flat",
-        "source": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/res/layout-v26/activity_main.xml"
     },
     {
         "merged": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",

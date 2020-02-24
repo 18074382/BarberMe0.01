@@ -32,9 +32,9 @@
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
 22-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:14:9-40
-23        <activity android:name="com.example.barberme001.DashboardActivity" />
-23-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:16:9-64
-23-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:16:19-52
+23        <activity android:name="com.example.barberme001.LoggedIn" />
+23-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:16:9-55
+23-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:16:19-43
 24
 25        <meta-data
 25-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:18:9-20:59
@@ -55,9 +55,9 @@
 33            android:value="@string/back4app_client_key" />
 33-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:26:13-56
 34
-35        <activity android:name="com.example.barberme001.SignUp_Login" />
-35-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:9-50
-35-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:19-47
+35        <activity android:name="com.example.barberme001.SignUp" />
+35-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:9-44
+35-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:19-41
 36        <activity android:name="com.example.barberme001.MainActivity" >
 36-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:29:9-35:20
 36-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:29:19-47
