@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import com.example.helpers.InputValidation;
+import com.example.model.User;
 import com.example.sql.DatabaseHelper;
 
 import android.content.Intent;
@@ -37,21 +38,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         blogin = findViewById(R.id.login);
         bregister = findViewById(R.id.register);
 
-        initListeners();
-        initObjects();
+        inputValidation = new InputValidation(this);
+        databaseHelper = new DatabaseHelper(this);
 
-    }
-
-
-
-    private void initListeners() {
         blogin.setOnClickListener(this);
         bregister.setOnClickListener(this);
-    }
 
-    private void initObjects() {
 
     }
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -65,17 +60,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
     }
+
     private void verifySQLite() {
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
      if (email.isEmpty() || password.isEmpty()) return;
+     if (!inputValidation.isEmailValid(email)) {
+         Toast toast = Toast.makeText(getApplicationContext(), "Invalid Email", Toast.LENGTH_SHORT);
+         toast.show();
+     }
 
-        if (databaseHelper.checkUser("hello", "hello")) {
+        if (databaseHelper.checkUser(email, password)) {
             Intent intent = new Intent(activity, LoggedIn.class);
             startActivity(intent);
         } else {
             //unsuccessful login
-            Toast toast = Toast.makeText(getApplicationContext(), "bad login", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "Bad login", Toast.LENGTH_SHORT);
             toast.show();
         }
 

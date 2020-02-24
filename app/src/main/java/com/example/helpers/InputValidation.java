@@ -34,7 +34,6 @@ public class InputValidation {
     public boolean isEmailValid(String text) {
         String value = text.trim();
         if (value.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(value).matches()) {
-
             return false;
         }
         return true;
