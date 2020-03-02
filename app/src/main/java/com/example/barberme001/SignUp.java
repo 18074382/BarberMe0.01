@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
+import com.example.helpers.InputValidation;
 import com.example.model.User;
 import com.example.sql.DatabaseHelper;
 
@@ -51,12 +52,24 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         if (v.getId() == R.id.button_register) {
             String email = etEmail.getText().toString().trim();
+            String username = etName.getText().toString().trim();
+            String password = etPassword.getText().toString().trim();
+
+            if (email.isEmpty() || username.isEmpty() || password.isEmpty()) {
+                Toast toast = Toast.makeText(getApplicationContext(), "Please enter values", Toast.LENGTH_SHORT);
+                toast.show();
+            }
+
+            if (!new InputValidation(this).isEmailValid(email)) {
+                Toast toast = Toast.makeText(getApplicationContext(), "Invalid email", Toast.LENGTH_SHORT);
+                toast.show();
+            }
+
             if (!databaseHelper.checkUser(email)) {
-                String userName = etName.getText().toString().trim();
-                String password = etPassword.getText().toString().trim();
+
 
                 User user = new User();
-                user.setName(userName);
+                user.setName(username);
                 user.setPassword(password);
                 user.setEmail(email);
 
