@@ -58,11 +58,13 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
             if (email.isEmpty() || username.isEmpty() || password.isEmpty()) {
                 Toast toast = Toast.makeText(getApplicationContext(), "Please enter values", Toast.LENGTH_SHORT);
                 toast.show();
+                return;
             }
 
             if (!new InputValidation(this).isEmailValid(email)) {
                 Toast toast = Toast.makeText(getApplicationContext(), "Invalid email", Toast.LENGTH_SHORT);
                 toast.show();
+                return;
             }
 
             if (!databaseHelper.checkUser(email)) {
