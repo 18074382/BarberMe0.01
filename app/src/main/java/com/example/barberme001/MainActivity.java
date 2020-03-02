@@ -71,16 +71,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      }
 
      User user = new User();
-     user.setEmail("wasiq@gmail.com");
-     user.setId(1);
-     user.setName("Wasiq");
-     user.setPassword("1234");
-
+     user.setEmail("test@gmail.com");
+     user.setName("test");
+     user.setPassword("123");
      databaseHelper.addUser(user);
 
         if (databaseHelper.checkUser(email, password)) {
             //successful login
-            Intent intent = new Intent(activity, LoggedIn.class);
+            Intent intent = new Intent(activity, HomeScreen.class);
             startActivity(intent);
         } else {
             //unsuccessful login
