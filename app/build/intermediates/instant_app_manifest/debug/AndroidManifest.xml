@@ -21,7 +21,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.barberme001.LoggedIn" />
+        <activity
+            android:name="com.example.barberme001.HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="com.parse.SERVER_URL"
