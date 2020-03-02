@@ -15,12 +15,10 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
+import com.example.helpers.InputValidation;
 import com.example.model.User;
 import com.example.sql.DatabaseHelper;
 
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
 
 
 
@@ -29,7 +27,6 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
     EditText etName, etEmail, etPassword;
     Button button_register;
     DatabaseHelper databaseHelper;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +40,6 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
 
         databaseHelper = new DatabaseHelper(this);
 
-
         //create the listener for the register button
         button_register.setOnClickListener(this);
     }
@@ -51,9 +47,19 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         if (v.getId() == R.id.button_register) {
             String email = etEmail.getText().toString().trim();
+            String userName = etName.getText().toString().trim();
+            String password = etPassword.getText().toString().trim();
+            if (email.isEmpty() || userName.isEmpty() || password.isEmpty()) {
+                Toast toast = Toast.makeText(getApplicationContext(), "Please enter values", Toast.LENGTH_SHORT);
+                toast.show();
+                return;
+            } else if (!new InputValidation(this).isEmailValid(email)) {
+                Toast toast = Toast.makeText(getApplicationContext(), "Invalid email format", Toast.LENGTH_SHORT);
+                toast.show();
+                return;
+            }
             if (!databaseHelper.checkUser(email)) {
-                String userName = etName.getText().toString().trim();
-                String password = etPassword.getText().toString().trim();
+
 
                 User user = new User();
                 user.setName(userName);

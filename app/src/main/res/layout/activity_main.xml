@@ -18,7 +18,7 @@
             android:layout_marginTop="312dp"
             android:drawableStart="@drawable/ic_action_user"
             android:drawableLeft="@drawable/ic_action_user"
-            android:hint="@string/username"
+            android:hint="@string/email"
             android:importantForAutofill="no"
             android:inputType="text"
             app:layout_constraintBottom_toTopOf="@+id/editText2"

@@ -64,7 +64,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void verifySQLite() {
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
+        //check if inputs have been filled so that you cannot create an empty user
      if (email.isEmpty() || password.isEmpty()) return;
+        //check that the email is in the correct format
      if (!inputValidation.isEmailValid(email)) {
          Toast toast = Toast.makeText(getApplicationContext(), "Invalid Email", Toast.LENGTH_SHORT);
          toast.show();
