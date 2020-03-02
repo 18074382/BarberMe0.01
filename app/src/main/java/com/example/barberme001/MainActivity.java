@@ -70,6 +70,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
          toast.show();
      }
 
+     User user = new User();
+     user.setEmail("wasiq@gmail.com");
+     user.setId(1);
+     user.setName("Wasiq");
+     user.setPassword("1234");
+
+     databaseHelper.addUser(user);
+
         if (databaseHelper.checkUser(email, password)) {
             //successful login
             Intent intent = new Intent(activity, LoggedIn.class);
