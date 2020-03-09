@@ -1389,9 +1389,11 @@ string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
 string email
+string explore
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
+string home
 string imABarber
 string imAUser
 string initial_click
@@ -1404,12 +1406,14 @@ string mainpage_logo
 string mtrl_chip_close_icon_content_description
 string name
 string no_account_yet_create_one
+string notifications
 string password
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string profile
 string register
 string requestName
 string returningUserText
