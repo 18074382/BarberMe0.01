@@ -1,4 +1,4 @@
-#Mon Mar 02 16:26:58 GMT 2020
-base.0=/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Mon Mar 09 14:08:08 GMT 2020
+base.0=C\:\\Users\\wasiq\\AndroidStudioProjects\\BarberMe002\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

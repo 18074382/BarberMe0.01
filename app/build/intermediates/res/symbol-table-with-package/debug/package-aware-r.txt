@@ -1012,7 +1012,10 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable logo
+drawable ic_nav_explore
+drawable ic_nav_home
+drawable ic_nav_notification
+drawable ic_nav_profile
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1060,7 +1063,6 @@ id add
 id alertTitle
 id all
 id always
-id app_bar
 id async
 id auto
 id barrier
@@ -1107,7 +1109,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1145,10 +1146,11 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id navigation_explore
 id navigation_header_container
 id navigation_home
 id navigation_notifications
-id navigation_sms
+id navigation_profile
 id never
 id none
 id normal
@@ -1221,6 +1223,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView_email
 id textView_name
 id textView_password
@@ -1232,9 +1235,9 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id toolbar
-id toolbar_layout
 id top
+id top_bar
+id top_container
 id topPanel
 id touch_outside
 id transition_current_scene
@@ -1381,6 +1384,7 @@ string back4app_app_id
 string back4app_client_key
 string back4app_server_url
 string background
+string barberme
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern

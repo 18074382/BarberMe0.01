@@ -6,88 +6,88 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml
+8-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml
+9-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:6:5-67
-11-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:6:22-64
+11-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:8:5-39:19
+13-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:8:5-39:19
 14        android:allowBackup="true"
-14-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:9:9-35
+14-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:9:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.1] /Users/aden/.gradle/caches/transforms-2/files-2.1/c0a39027978b83a483a047f5c31d0c4e/core-1.0.1/AndroidManifest.xml:22:18-86
+15-->[androidx.core:core:1.0.1] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:10:9-43
+17-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:10:9-43
 18        android:label="@string/app_name"
-18-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:11:9-41
+18-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:11:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:12:9-54
+19-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
-20-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:13:9-35
+20-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:13:9-35
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
-22-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:14:9-40
+22-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:14:9-40
 23        <activity
-23-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:16:9-19:68
+23-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:16:9-19:68
 24            android:name="com.example.barberme001.HomeScreen"
-24-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:17:13-39
+24-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:17:13-39
 25            android:label="@string/title_activity_home_screen"
-25-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:18:13-63
+25-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:18:13-63
 26            android:theme="@style/AppTheme.NoActionBar" />
-26-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:19:13-56
+26-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:19:13-56
 27
 28        <meta-data
-28-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:21:9-23:59
+28-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:21:9-23:59
 29            android:name="com.parse.SERVER_URL"
-29-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:22:13-48
+29-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:22:13-48
 30            android:value="@string/back4app_server_url" />
-30-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:23:13-56
+30-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:23:13-56
 31        <meta-data
-31-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:24:9-26:55
+31-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:24:9-26:55
 32            android:name="com.parse.APPLICATION_ID"
-32-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:25:13-52
+32-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:25:13-52
 33            android:value="@string/back4app_app_id" />
-33-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:26:13-52
+33-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:26:13-52
 34        <meta-data
-34-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:27:9-29:59
+34-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:27:9-29:59
 35            android:name="com.parse.CLIENT_KEY"
-35-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:28:13-48
+35-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:28:13-48
 36            android:value="@string/back4app_client_key" />
-36-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:29:13-56
+36-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:29:13-56
 37
 38        <activity android:name="com.example.barberme001.SignUp" />
-38-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:31:9-44
-38-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:31:19-41
+38-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:31:9-44
+38-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:31:19-41
 39        <activity android:name="com.example.barberme001.MainActivity" >
-39-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:32:9-38:20
-39-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:32:19-47
+39-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:32:9-38:20
+39-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:32:19-47
 40            <intent-filter>
-40-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:33:13-37:29
+40-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:33:13-37:29
 41                <action android:name="android.intent.action.MAIN" />
-41-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:34:17-69
-41-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:34:25-66
+41-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:34:17-69
+41-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:34:25-66
 42
 43                <category android:name="android.intent.category.LAUNCHER" />
-43-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:36:17-77
-43-->/Users/aden/AndroidStudioProjects/BarberMe0.01/app/src/main/AndroidManifest.xml:36:27-74
+43-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:36:17-77
+43-->C:\Users\wasiq\AndroidStudioProjects\BarberMe002\app\src\main\AndroidManifest.xml:36:27-74
 44            </intent-filter>
 45        </activity>
 46
 47        <provider
-47-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/aden/.gradle/caches/transforms-2/files-2.1/b3c088406576b03c69a90621925ddf75/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 48            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-48-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/aden/.gradle/caches/transforms-2/files-2.1/b3c088406576b03c69a90621925ddf75/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
 49            android:authorities="com.example.barberme001.lifecycle-process"
-49-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/aden/.gradle/caches/transforms-2/files-2.1/b3c088406576b03c69a90621925ddf75/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+49-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
 50            android:exported="false"
-50-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/aden/.gradle/caches/transforms-2/files-2.1/b3c088406576b03c69a90621925ddf75/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+50-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
 51            android:multiprocess="true" />
-51-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/aden/.gradle/caches/transforms-2/files-2.1/b3c088406576b03c69a90621925ddf75/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+51-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
 52    </application>
 53
 54</manifest>
