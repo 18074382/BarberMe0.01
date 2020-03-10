@@ -8,7 +8,7 @@
     tools:context=".HomeScreen">
 
     <FrameLayout
-        android:id="@+id/top-container"
+        android:id="@+id/topcontainer"
         android:layout_width="match_parent"
         android:layout_height="610dp"
         android:layout_gravity="top"
