@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aden/AndroidStudioProjects/BarberMe0.01/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "outputFile": "D:\\Android\\projects\\BarberMe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/aden/.gradle/caches/transforms-2/files-2.1/906744c4ddcbc384c5a8d2d69414f8fa/appcompat-1.0.2/res/values-v28/values-v28.xml",
+                    "source": "C:\\Users\\Aden\\.gradle\\caches\\transforms-2\\files-2.1\\906744c4ddcbc384c5a8d2d69414f8fa\\appcompat-1.0.2\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
