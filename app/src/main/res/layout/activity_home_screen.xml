@@ -27,7 +27,7 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/titleView"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginEnd="210dp"
@@ -45,9 +45,11 @@
     </FrameLayout>
 
     <include
+        android:id="@+id/include"
         layout="@layout/content_home_screen"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#940D0D"
-        android:layout_width="match_parent" />
+        app:layout_anchorGravity="center" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
