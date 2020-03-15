@@ -3,6 +3,7 @@ package com.example.barberme001;
 import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 
+import com.example.helpers.FirebaseData;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
@@ -10,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -19,16 +21,23 @@ public class HomeScreen extends AppCompatActivity {
 
     private TextView title;
     private BottomNavigationView bottomNavigationView;
-
+    private FirebaseData fdata;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-        title = findViewById(R.id.titleView);
-
+        initObjects();
         botNavBar();
+
+        //get some data!
+        Log.d("testing", "username: " + fdata.getName());
+    }
+
+    private void initObjects() {
+        fdata = new FirebaseData();
+        title = findViewById(R.id.titleView);
     }
 
     private void botNavBar() {

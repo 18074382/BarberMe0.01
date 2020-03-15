@@ -21,16 +21,19 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 
 public class SignUp extends AppCompatActivity implements View.OnClickListener {
 
     EditText etName, etEmail, etPassword;
     Button button_register;
-    private FirebaseAuth mAuth;
-    private static final String TAG = "EmailPassword";
 
+    private static final String TAG = "EmailPassword";
     private InputValidation inputValidation;
+
+    private FirebaseAuth mAuth;
+    private FirebaseFirestore db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +52,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         button_register = (Button) findViewById(R.id.button_register);
 
         mAuth = FirebaseAuth.getInstance();
+        db = FirebaseFirestore.getInstance();
 
         button_register.setOnClickListener(this);
     }
@@ -79,7 +83,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                                     // Sign in success, update UI with the signed-in user's information
                                     Log.d(TAG, "createUserWithEmail:success");
                                     FirebaseUser user = mAuth.getCurrentUser();
-                                    
+
                                 } else {
                                     // If sign in fails, display a message to the user.
                                     Log.w(TAG, "createUserWithEmail:failure", task.getException());

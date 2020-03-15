@@ -32,10 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button bregister;
 
     private static final String TAG = "EmailPassword";
-
     private InputValidation inputValidation;
-
     private FirebaseAuth mAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
