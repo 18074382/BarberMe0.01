@@ -1,4 +1,4 @@
-#Sun Mar 15 17:25:57 GMT 2020
-base.0=C\:\\Users\\wasiq\\AndroidStudioProjects\\BarberMe0.01\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Sun Mar 15 18:29:43 GMT 2020
+base.0=D\:\\Android\\projects\\BarberMe0.01\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -4,11 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 
-import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
 
@@ -18,18 +15,12 @@ import android.widget.Toast;
 
 
 import com.example.helpers.InputValidation;
-import com.example.model.User;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-
 
 
 public class SignUp extends AppCompatActivity implements View.OnClickListener {
@@ -39,10 +30,18 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
     private FirebaseAuth mAuth;
     private static final String TAG = "EmailPassword";
 
+    private InputValidation inputValidation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+        initObjects();
+    }
+
+    public void initObjects() {
+        inputValidation = new InputValidation(this);
 
         etName = (EditText) findViewById(R.id.editText_name);
         etEmail = (EditText) findViewById(R.id.editText_email);
@@ -51,11 +50,9 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
 
         mAuth = FirebaseAuth.getInstance();
 
-
-
-        //create the listener for the register button
         button_register.setOnClickListener(this);
     }
+
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.button_register) {
@@ -69,13 +66,13 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                 return;
             }
 
-            if (!new InputValidation(this).isEmailValid(email)) {
+            if (!inputValidation.isEmailValid(email)) {
                 Toast toast = Toast.makeText(getApplicationContext(), "Invalid email", Toast.LENGTH_SHORT);
                 toast.show();
                 return;
             }
 
-            if (!email.isEmpty() && !username.isEmpty() && !password.isEmpty() && new InputValidation(this).isEmailValid(email)) {
+            if (!email.isEmpty() && !username.isEmpty() && !password.isEmpty()) {
 
                 mAuth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
