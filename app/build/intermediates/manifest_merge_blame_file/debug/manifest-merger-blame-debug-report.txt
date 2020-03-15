@@ -5,89 +5,148 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="15"
-8-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="16"
+8-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml
+9-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:6:5-67
-11-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:6:22-64
+11-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:8:5-39:19
+13-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:8:5-44:19
 14        android:allowBackup="true"
-14-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:9:9-35
+14-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:9:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.1] C:\Users\Aden\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+15-->[androidx.core:core:1.0.1] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\baab1d635d6299aaa7cd48a6c4ae1902\core-1.0.1\AndroidManifest.xml:22:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:10:9-43
+17-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:10:9-43
 18        android:label="@string/app_name"
-18-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:11:9-41
+18-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:11:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:12:9-54
+19-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
-20-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:13:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:14:9-40
-23        <activity
-23-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:16:9-19:68
-24            android:name="com.example.barberme001.HomeScreen"
-24-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:17:13-39
-25            android:label="@string/title_activity_home_screen"
-25-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:18:13-63
-26            android:theme="@style/AppTheme.NoActionBar" />
-26-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:19:13-56
-27
-28        <meta-data
-28-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:21:9-23:59
-29            android:name="com.parse.SERVER_URL"
-29-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:22:13-48
-30            android:value="@string/back4app_server_url" />
-30-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:23:13-56
-31        <meta-data
-31-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:24:9-26:55
-32            android:name="com.parse.APPLICATION_ID"
-32-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:25:13-52
-33            android:value="@string/back4app_app_id" />
-33-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:26:13-52
-34        <meta-data
-34-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:27:9-29:59
-35            android:name="com.parse.CLIENT_KEY"
-35-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:28:13-48
-36            android:value="@string/back4app_client_key" />
-36-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:29:13-56
-37
-38        <activity android:name="com.example.barberme001.SignUp" />
-38-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:31:9-44
-38-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:31:19-41
-39        <activity android:name="com.example.barberme001.MainActivity" >
-39-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:32:9-38:20
-39-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:32:19-47
-40            <intent-filter>
-40-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:33:13-37:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:34:17-69
-41-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:34:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:36:17-77
-43-->D:\Android\projects\BarberMe\app\src\main\AndroidManifest.xml:36:27-74
-44            </intent-filter>
-45        </activity>
-46
-47        <provider
-47-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Aden\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-48            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-48-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Aden\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-49            android:authorities="com.example.barberme001.lifecycle-process"
-49-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Aden\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-50            android:exported="false"
-50-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Aden\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-51            android:multiprocess="true" />
-51-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Aden\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-52    </application>
+20-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:13:9-35
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:14:9-40
+22        <activity
+22-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:16:9-19:59
+23            android:name="com.example.barberme001.HomeScreen"
+23-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:17:13-39
+24            android:label="@string/title_activity_home_screen"
+24-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:18:13-63
+25            android:theme="@style/AppTheme.NoActionBar" />
+25-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:19:13-56
+26
+27        <meta-data
+27-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:21:9-23:59
+28            android:name="com.parse.SERVER_URL"
+28-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:22:13-48
+29            android:value="@string/back4app_server_url" />
+29-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:23:13-56
+30        <meta-data
+30-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:24:9-26:55
+31            android:name="com.parse.APPLICATION_ID"
+31-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:25:13-52
+32            android:value="@string/back4app_app_id" />
+32-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:26:13-52
+33        <meta-data
+33-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:27:9-29:59
+34            android:name="com.parse.CLIENT_KEY"
+34-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:28:13-48
+35            android:value="@string/back4app_client_key" />
+35-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:29:13-56
+36
+37        <activity android:name="com.example.barberme001.SignUp" />
+37-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:31:9-44
+37-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:31:19-41
+38        <activity android:name="com.example.barberme001.MainActivity" >
+38-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:32:9-38:20
+38-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:32:19-47
+39            <intent-filter>
+39-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:33:13-37:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:34:17-69
+40-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:34:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:36:17-77
+42-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:36:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.example.helpers.CheckIfUserLoggedIn" />
+45-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:39:9-76
+45-->C:\Users\wasiq\AndroidStudioProjects\BarberMe0.01\app\src\main\AndroidManifest.xml:39:19-73
+46        <activity
+46-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+47            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+47-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+48            android:excludeFromRecents="true"
+48-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+49            android:exported="true"
+49-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+50            android:launchMode="singleTask"
+50-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+51            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+51-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
 53
-54</manifest>
+54        <service
+54-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:33:9-39:19
+55            android:name="com.google.firebase.components.ComponentDiscoveryService"
+55-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:34:13-84
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\1b23a58bb1c539c2a19df1b0920c32b5\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+57            android:exported="false" >
+57-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:35:13-37
+58            <meta-data
+58-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+59                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+59-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\dfe7b3659c61d92bbc3815d5264c7c0d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+61        </service>
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\d515fa0142795af05e3369fe0848cba8\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\d515fa0142795af05e3369fe0848cba8\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\d515fa0142795af05e3369fe0848cba8\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\d515fa0142795af05e3369fe0848cba8\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+67
+68        <provider
+68-->[com.google.firebase:firebase-common:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\1b23a58bb1c539c2a19df1b0920c32b5\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+69            android:name="com.google.firebase.provider.FirebaseInitProvider"
+69-->[com.google.firebase:firebase-common:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\1b23a58bb1c539c2a19df1b0920c32b5\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+70            android:authorities="com.example.barberme001.firebaseinitprovider"
+70-->[com.google.firebase:firebase-common:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\1b23a58bb1c539c2a19df1b0920c32b5\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+71            android:exported="false"
+71-->[com.google.firebase:firebase-common:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\1b23a58bb1c539c2a19df1b0920c32b5\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+72            android:initOrder="100" />
+72-->[com.google.firebase:firebase-common:19.3.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\1b23a58bb1c539c2a19df1b0920c32b5\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+73
+74        <meta-data
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\f720b24cc490c109d50c0a0a1e6bf186\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+75            android:name="com.google.android.gms.version"
+75-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\f720b24cc490c109d50c0a0a1e6bf186\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+76            android:value="@integer/google_play_services_version" />
+76-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\f720b24cc490c109d50c0a0a1e6bf186\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+77
+78        <provider
+78-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\399fb33a8ad56b04bb7efb3af3e16457\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+79            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\399fb33a8ad56b04bb7efb3af3e16457\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+80            android:authorities="com.example.barberme001.lifecycle-process"
+80-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\399fb33a8ad56b04bb7efb3af3e16457\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+81            android:exported="false"
+81-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\399fb33a8ad56b04bb7efb3af3e16457\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+82            android:multiprocess="true" />
+82-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\wasiq\.gradle\caches\transforms-2\files-2.1\399fb33a8ad56b04bb7efb3af3e16457\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+83    </application>
+84
+85</manifest>
