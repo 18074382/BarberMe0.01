@@ -89,14 +89,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                     // Sign in success, move to explore page
                                     Log.d(TAG, "signInWithEmail:success");
                                     FirebaseUser user = mAuth.getCurrentUser();
-                                    Toast.makeText(MainActivity.this, "User " + user.getDisplayName() + " successfully signed in.",
+                                    Toast.makeText(MainActivity.this, "User " + user.getDisplayName() + " has been signed in.",
                                             Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(activity, HomeScreen.class);
                                     startActivity(intent);
                                 } else {
                                     // If sign in fails, display a message to the user.
                                     Log.w(TAG, "signInWithEmail:failure", task.getException());
-                                    Toast.makeText(MainActivity.this, "Bad login!",
+                                    Toast.makeText(MainActivity.this, "Something wasn't quite right. Try again!",
                                             Toast.LENGTH_SHORT).show();
                                 }
                             }

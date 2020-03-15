@@ -60,20 +60,17 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
             String username = etName.getText().toString().trim();
             String password = etPassword.getText().toString().trim();
 
-            if (email.isEmpty() || username.isEmpty() || password.isEmpty()) {
-                Toast toast = Toast.makeText(getApplicationContext(), "Please enter values", Toast.LENGTH_SHORT);
-                toast.show();
-                return;
-            }
-
             if (!inputValidation.isEmailValid(email)) {
                 Toast toast = Toast.makeText(getApplicationContext(), "Invalid email", Toast.LENGTH_SHORT);
                 toast.show();
                 return;
             }
 
-            if (!email.isEmpty() && !username.isEmpty() && !password.isEmpty()) {
-
+            if (email.isEmpty() || username.isEmpty() || password.isEmpty()) {
+                Toast toast = Toast.makeText(getApplicationContext(), "Please enter values", Toast.LENGTH_SHORT);
+                toast.show();
+                return;
+            } else {
                 mAuth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                             @Override
@@ -88,20 +85,14 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                                     Log.w(TAG, "createUserWithEmail:failure", task.getException());
                                     Toast.makeText(SignUp.this, "Authentication failed.",
                                             Toast.LENGTH_SHORT).show();
-
                                 }
-
-                                // ...
                             }
                         });
 
-                //return
-                Toast toast = Toast.makeText(getApplicationContext(), "Success", Toast.LENGTH_SHORT);
+                //return to login
+                Toast toast = Toast.makeText(getApplicationContext(), "You've signed up!", Toast.LENGTH_SHORT);
                 toast.show();
                 finish();
-            } else {
-                Toast toast = Toast.makeText(getApplicationContext(), "Account already exists with that email", Toast.LENGTH_SHORT);
-                toast.show();
             }
 
 
