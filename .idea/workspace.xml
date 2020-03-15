@@ -12,16 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03d685ef-22e9-41a2-b42f-551ea7697985" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/barberme001/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/barberme001/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/helpers/FirebaseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/barberme001/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/barberme001/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/helpers/CheckIfUserLoggedIn.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -321,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584297175454</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="SMALL CHANGE&#10;-corrected error messages for SignUp&#10;-More user friendly error strings">
+      <created>1584297956099</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584297956099</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,7 +351,8 @@
     <MESSAGE value="-final changes before meeting" />
     <MESSAGE value="Functional Register and Login with Firebase&#10;Used Google's Firebase service to authenticate users for registering and logging in. &#10;Email and Password to be used. &#10;Removed sql database from the project. &#10;Added a class to check if a user is already logged in. (incomplete)&#10;Error handling left to be added" />
     <MESSAGE value="FIXES &amp; CLEANUP&#10;-cleaned up main method, moved object init in MainActivity and SignUp&#10;-Removed redundant inputValidation&#10;-Fixed bug where regardless of login success the next page would show&#10;-Added correct error messages for input validation &#10;-Removed old and redundant user class &#10;-Optimised usage of inputValidation class in both MainActivity and SignUp" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIXES &amp; CLEANUP&#10;-cleaned up main method, moved object init in MainActivity and SignUp&#10;-Removed redundant inputValidation&#10;-Fixed bug where regardless of login success the next page would show&#10;-Added correct error messages for input validation &#10;-Removed old and redundant user class &#10;-Optimised usage of inputValidation class in both MainActivity and SignUp" />
+    <MESSAGE value="SMALL CHANGE&#10;-corrected error messages for SignUp&#10;-More user friendly error strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="SMALL CHANGE&#10;-corrected error messages for SignUp&#10;-More user friendly error strings" />
   </component>
   <component name="masterDetails">
     <states>
